@@ -4,6 +4,92 @@
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/ceb24057bede45bb8cbcfde48490ec32.png)
 基于Vue3和Element Plus的登录界面，创建名为`Login.vue`的组件。这个组件将包含用户名和密码输入框、登录按钮以及注册账号和忘记密码的链接。
 
+***系统描述：***
+
+### YOLO+DeepSeek农作物病虫害检测系统信息表
+
+#### 系统概述
+
+| 项目 | 内容 |
+|------|------|
+| **系统名称** | YOLO+DeepSeek农作物病虫害检测系统 |
+| **主要功能** | 图片检测、批量图片检测、视频检测、摄像头检测 |
+| **报告输出** | 支持将检测结果导出为PDF文件 |
+| **可视化界面** | 提供美观简洁的用户界面，支持主题色、布局样式、组件大小修改 |
+| **用户管理** | 分管理员和普通用户，管理员可查看所有记录并管理用户，普通用户仅能查看自己的记录 |
+
+#### 技术栈
+
+| 类别 | 技术 |
+|------|------|
+| **模型与算法** | YOLO, DeepSeek, Qwen, Pytorch |
+| **后端框架** | SpringBoot, MyBatis-Plus, Flask |
+| **前端框架** | Vue3, Element Plus, Echarts, TypeScript (Ts), Axios |
+| **数据库** | MySQL |
+
+#### 检测类别
+
+
+以下是根据您提供的37种农作物病虫害检测情况整理的详细表格：
+
+### 农作物病虫害检测类别表
+
+| 序号 | 英文名称                         | 中文名称               |
+|------|----------------------------------|------------------------|
+| 1    | Apple-black_rot                  | 苹果-黑腐病            |
+| 2    | Apple-healthy                    | 苹果-健康              |
+| 3    | Apple-scab                       | 苹果-结痂              |
+| 4    | Pepper_bacterial_spot            | 甜椒-细菌性斑疹        |
+| 5    | Pepper_healthy                   | 甜椒-健康              |
+| 6    | Cassava-brown_streak_disease     | 木薯-褐条病            |
+| 7    | Cassava-bacterial_blight         | 木薯-细菌性枯萎病      |
+| 8    | Cassava-green_mottle             | 木薯-绿斑病            |
+| 9    | Cherry-healthy                   | 樱桃-健康              |
+| 10   | Cherry-powdery_mildew            | 樱桃-白粉病            |
+| 11   | Corn-gray_leaf_spot              | 玉米-叶斑病            |
+| 12   | Corn-common_rust                 | 玉米-普通锈病          |
+| 13   | Corn-healthy                     | 玉米-健康              |
+| 14   | Grape-black_rot                  | 葡萄-黑腐病            |
+| 15   | Grape-healthy                    | 葡萄-健康              |
+| 16   | Grape-esca                       | 葡萄-叶枯病            |
+| 17   | Cassava-healthy                  | 木薯-健康              |
+| 18   | Cassava-mosaic_virus             | 木薯-花叶病毒          |
+| 19   | Corn-northern_leaf_blight        | 玉米-大斑病            |
+| 20   | Citrus-greening                  | 柑桔-黄龙病            |
+| 21   | Peach-bacterial_spot             | 桃子-桃细菌性穿孔病    |
+| 22   | Peach-healthy                    | 桃子-健康              |
+| 23   | Potato-early_blight              | 土豆-早疫病            |
+| 24   | Potato-healthy                   | 土豆-健康              |
+| 25   | Potato-late_blight               | 土豆-晚疫病            |
+| 26   | Rice-brown_spot                  | 水稻-褐斑病            |
+| 27   | Rice-healthy                     | 水稻-健康              |
+| 28   | Rice-rice_blast                  | 水稻-稻瘟病            |
+| 29   | Strawberry-powdery_mildew        | 草莓-白粉病            |
+| 30   | Strawberry-healthy               | 草莓-健康              |
+| 31   | Strawberry-angular_leaf_spot     | 草莓-角斑病            |
+| 32   | Tomato-bacterial_spot            | 番茄-细菌性斑疹病      |
+| 33   | Tomato-early_blight              | 番茄-早疫病            |
+| 34   | Tomato-late_blight               | 番茄-晚疫病            |
+| 35   | Tomato-healthy                   | 番茄-健康              |
+| 36   | Tomato-septoria_leaf_spot        | 番茄-叶霉病            |
+| 37   | Tomato-target_spot               | 番茄-斑枯病            |
+
+---
+
+#### 功能
+
+| 功能 | 描述 |
+|------|------|
+| **结合大模型** | 使用DeepSeek、Qwen等大型模型提供检测结果及建议 |
+| **批量处理** | 支持上传文件夹进行批量图片检测，并导出PDF报告 |
+| **多模式检测** | 支持图片、批量图片、视频、摄像头四种检测方式 |
+| **用户权限管理** | 分管理员和普通用户，实现分级管理 |
+| **界面定制化** | 支持主题色、布局样式、组件大小的修改，提升用户体验 |
+
+---
+
+如果有更详细的需求或其他特定信息，请进一步说明。
+
 ### 1. 创建 `Login.vue`
 
 在你的项目中创建一个新的文件 `src/views/Login.vue` 并添加以下代码：
@@ -472,4 +558,4 @@ def get_advice_from_qwen(detection):
 
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/c8997f500c9b40fdacf36eee2b626c6d.png)
-
+以上文字及代码仅供参考学习使用。
